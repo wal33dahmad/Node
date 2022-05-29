@@ -1,0 +1,39 @@
+API KEY = 0318737d62d8b6d4e3585f49fe0593a7
+
+API = https://api.openweathermap.org/data/2.5/weather?q=London&appid={API key}
+
+https://api.openweathermap.org/data/2.5/weather?q=London&appid=0318737d62d8b6d4e3585f49fe0593a7
+
+
+
+[
+  {
+    coord: { lon: -0.1257, lat: 51.5085 },
+    weather: [ [Object] ],
+    base: 'stations',
+    main: {
+      temp: 288.9,
+      feels_like: 287.86,
+      temp_min: 285.9,
+      temp_max: 291,
+      pressure: 1018,
+      humidity: 51
+    },
+    visibility: 10000,
+    wind: { speed: 4.63, deg: 50 },
+    clouds: { all: 40 },
+    dt: 1653832242,
+    sys: {
+      type: 2,
+      id: 268730,
+      country: 'GB',
+      sunrise: 1653796312,
+      sunset: 1653854655
+    },
+    timezone: 3600,
+    id: 2643743,
+    name: 'London',
+    cod: 200
+  }
+]
+end here
